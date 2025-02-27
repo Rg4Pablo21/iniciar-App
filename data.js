@@ -1,12 +1,72 @@
-export const productos = [
-    { id: 1, nombre: "Producto 1", precio: 10.50, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 2, nombre: "Producto 2", precio: 15.20, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 3, nombre: "Producto 3", precio: 20.10, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 4, nombre: "Producto 4", precio: 25.99, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 5, nombre: "Producto 5", precio: 30.5, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 6, nombre: "Producto 6", precio: 35.25, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 7, nombre: "Producto 7", precio: 40.60, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 8, nombre: "Producto 8", precio: 45.75, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 9, nombre: "Producto 9", precio: 50.70, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" },
-    { id: 10, nombre: "Producto 10", precio: 55.7, imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/1200px-Desktop_computer_clipart_-_Yellow_theme.svg.png" }
+const dataProductos = [
+    {
+        id: 1,
+        nombre: "Sofá Rojo",
+        precio: 250,
+        imagen: "sofa-rojo.png",
+        colores: ["#a52a2a", "#000000", "#ffffff"]
+    },
+    {
+        id: 2,
+        nombre: "Silla Elegante",
+        precio: 150,
+        imagen: "silla-elegante.png",
+        colores: ["#ff0000", "#000000", "#ffffff"]
+    },
+    {
+        id: 3,
+        nombre: "Butaca Blanca",
+        precio: 300,
+        imagen: "butaca-blanca.png",
+        colores: ["#d3d3d3", "#ffffff", "#000000"]
+    },
+    {
+        id: 4,
+        nombre: "Sofá Verde",
+        precio: 350,
+        imagen: "sofa-verde.png",
+        colores: ["#228B22", "#000000", "#ffffff"]
+    },
+    {
+        id: 5,
+        nombre: "Silla Moderna",
+        precio: 180,
+        imagen: "silla-moderna.png",
+        colores: ["#808080", "#d3d3d3", "#ffffff"]
+    },
+    {
+        id: 6,
+        nombre: "Sofá Azul",
+        precio: 280,
+        imagen: "sofa-azul.png",
+        colores: ["#0000ff", "#000000", "#ffffff"]
+    },
+    {
+        id: 7,
+        nombre: "Sofá Marrón",
+        precio: 290,
+        imagen: "sofa-marron.png",
+        colores: ["#8b4513", "#a52a2a", "#ffffff"]
+    },
+    {
+        id: 8,
+        nombre: "Silla de Oficina",
+        precio: 200,
+        imagen: "silla-oficina.png",
+        colores: ["#000000", "#808080", "#ffffff"]
+    },
+    {
+        id: 9,
+        nombre: "Sofá Dorado",
+        precio: 320,
+        imagen: "sofa-dorado.png",
+        colores: ["#b8860b", "#000000", "#ffffff"]
+    },
+    {
+        id: 10,
+        nombre: "Silla Clásica",
+        precio: 170,
+        imagen: "silla-clasica.png",
+        colores: ["#d3d3d3", "#000000", "#ffffff"]
+    }
 ];

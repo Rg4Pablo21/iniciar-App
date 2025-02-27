@@ -1,14 +1,11 @@
-function producto(prod) {
-    const item = document.createElement("div");
-    item.classList.add("producto");
-    item.setAttribute("data-id", prod.id);
-    item.innerHTML = `
-        <div class="imagen-producto">
-            <img src="${prod.imagen || 'X'}" alt="${prod.nombre}">
+function producto(item) {
+    return `
+        <div class="producto" id="producto-${item.id}">
+            <img src="${item.imagen}" alt="${item.nombre}">
+            <h3>${item.nombre}</h3>
+            <p>Q ${item.precio}.00</p>
+            <button onclick="resaltarProducto(${item.id})">Resaltar</button>
+            <button onclick="eliminarProducto(${item.id})">Eliminar</button>
         </div>
-        <h3>${prod.nombre}</h3>
-        <p>$${prod.precio.toFixed(2)}</p>
-        <button class="btn-eliminar">Eliminar</button>
     `;
-    return item;
 }

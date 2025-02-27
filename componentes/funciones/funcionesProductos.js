@@ -1,8 +1,17 @@
+function eliminarProducto(id) {
+    const index = dataProductos.findIndex(producto => producto.id === id);
+    if (index !== -1) {
+        dataProductos.splice(index, 1);
+        cargarProductos();
+    }
+}
+
 function resaltarProducto(id) {
-    const producto = document.querySelector(`.producto[data-id="${id}"]`);
-    if (producto) {
-        producto.classList.toggle("resaltado");
-        productosResaltados += producto.classList.contains("resaltado") ? 1 : -1;
-        contador.textContent = `Productos en General: ${productosResaltados}`;
+    const productos = document.querySelectorAll(".producto");
+    productos.forEach(producto => producto.classList.remove("resaltado"));
+
+    const productoResaltado = document.querySelector(`[data-id="${id}"]`);
+    if (productoResaltado) {
+        productoResaltado.classList.add("resaltado");
     }
 }

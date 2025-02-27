@@ -1,3 +1,4 @@
-const contador = document.getElementById("contador-productos");
-let productosResaltados = 0;
-contador.textContent = `Productos en General: ${productosResaltados}`;
+function mostrarMenu() {
+    const menu = document.getElementById("menu-productos");
+    menu.innerHTML = `Productos marcados: ${dataProductos.length}`;
+}
