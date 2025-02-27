@@ -1,72 +1,14 @@
-const dataProductos = [
-    {
-        id: 1,
-        nombre: "Sofá Rojo",
-        precio: 250,
-        imagen: "sofa-rojo.png",
-        colores: ["#a52a2a", "#000000", "#ffffff"]
-    },
-    {
-        id: 2,
-        nombre: "Silla Elegante",
-        precio: 150,
-        imagen: "silla-elegante.png",
-        colores: ["#ff0000", "#000000", "#ffffff"]
-    },
-    {
-        id: 3,
-        nombre: "Butaca Blanca",
-        precio: 300,
-        imagen: "butaca-blanca.png",
-        colores: ["#d3d3d3", "#ffffff", "#000000"]
-    },
-    {
-        id: 4,
-        nombre: "Sofá Verde",
-        precio: 350,
-        imagen: "sofa-verde.png",
-        colores: ["#228B22", "#000000", "#ffffff"]
-    },
-    {
-        id: 5,
-        nombre: "Silla Moderna",
-        precio: 180,
-        imagen: "silla-moderna.png",
-        colores: ["#808080", "#d3d3d3", "#ffffff"]
-    },
-    {
-        id: 6,
-        nombre: "Sofá Azul",
-        precio: 280,
-        imagen: "sofa-azul.png",
-        colores: ["#0000ff", "#000000", "#ffffff"]
-    },
-    {
-        id: 7,
-        nombre: "Sofá Marrón",
-        precio: 290,
-        imagen: "sofa-marron.png",
-        colores: ["#8b4513", "#a52a2a", "#ffffff"]
-    },
-    {
-        id: 8,
-        nombre: "Silla de Oficina",
-        precio: 200,
-        imagen: "silla-oficina.png",
-        colores: ["#000000", "#808080", "#ffffff"]
-    },
-    {
-        id: 9,
-        nombre: "Sofá Dorado",
-        precio: 320,
-        imagen: "sofa-dorado.png",
-        colores: ["#b8860b", "#000000", "#ffffff"]
-    },
-    {
-        id: 10,
-        nombre: "Silla Clásica",
-        precio: 170,
-        imagen: "silla-clasica.png",
-        colores: ["#d3d3d3", "#000000", "#ffffff"]
-    }
+const productos = [
+    { id: 1, nombre: "Producto 1", precio: 10.99, imagen: "https://walmartgt.vtexassets.com/arquivos/ids/436737/Gaseosa-Coca-Cola-Regular-Lata-354-ml-2-33502.jpg?v=638392665722470000" },
+    { id: 2, nombre: "Producto 2", precio: 15.99, imagen: "https://chalosgrocery.com/assets/uploads/d6d59b4f6717d443b421e664418f6041.jpg" },
+    { id: 3, nombre: "Producto 3", precio: 20.99, imagen: "https://walmartgt.vtexassets.com/arquivos/ids/450658-800-450?v=638416322989230000&width=800&height=450&aspect=true" },
+    { id: 4, nombre: "Producto 4", precio: 25.99, imagen: "https://walmartgt.vtexassets.com/arquivos/ids/189474/Aceite-Suli-Vegetal-Con-Soya-800ml-1-34231.jpg?v=637626941443700000" },
+    { id: 5, nombre: "Producto 5", precio: 30.99, imagen: "https://i0.wp.com/superlacasita.com.gt/wp-content/uploads/2020/08/Azucar-Cana-Real-500g.jpg?fit=600%2C600&ssl=1" },
+    { id: 6, nombre: "Producto 6", precio: 35.99, imagen: "https://cropafresh.com/wp-content/uploads/2023/04/nacho.jpg" },
+    { id: 7, nombre: "Producto 7", precio: 40.99, imagen: "https://cemacogt.vtexassets.com/arquivos/ids/448999/746977_1.jpg?v=638439424458370000" },
+    { id: 8, nombre: "Producto 8", precio: 45.99, imagen: "https://walmartgt.vtexassets.com/arquivos/ids/747035/26968_01.jpg?v=638739560481530000" },
+
 ];
+
+
+export { productos}
