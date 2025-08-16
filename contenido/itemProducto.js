@@ -1,3 +1,4 @@
+
 function producto(prod) {
     const item = document.createElement('div');
     item.classList.add('producto');
