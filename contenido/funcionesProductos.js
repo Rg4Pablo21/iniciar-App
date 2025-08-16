@@ -1,8 +1,9 @@
+import { carrito } from "../data.js";
 export function resaltarProducto(id) {
     const producto = document.querySelector(`.producto[data-id="${id}"]`);
     if (producto) {
         producto.classList.toggle('resaltado'); 
-        actualizarContador();  // Asegúrate de que esta función existe
+        actualizarContador(); 
     }
 }
 
@@ -10,8 +11,15 @@ export function eliminarProducto(id) {
     const producto = document.querySelector(`.producto[data-id="${id}"]`);
     if (producto) {
         producto.remove(); 
-        actualizarContador();  // Asegúrate de que esta función existe
+        actualizarContador(); 
     }
+}
+
+function agregar(){
+    carrito.unshift("A");
+    iniciarApp();
+    alert("Hola")
+
 }
 
 document.addEventListener('click', (event) => {
